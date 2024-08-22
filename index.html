@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- Fontawesome  -->
     <script src="https://kit.fontawesome.com/a79eae3b70.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
 
     <!-- DaisyUI & Tailwind CDN -->
      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" /><script src="https://cdn.tailwindcss.com"></script>
@@ -36,23 +37,22 @@
 
 </head>
 <body class="manrope-font">
-    <header class="container max-w-7xl mx-auto">
-        <!-- Navbar section -->
-        <div class=" navbar bg-base-100 flex ">
-            <div class="navbar-start flex-1">
+    <header class="container max-w-7xl  border mx-auto ">
+        <!-- nav -->
+     <nav class="">
+        <div class=" navbar bg-base-100 ">
+            <div class="navbar-start flex-1 ">
              <!--  -->
-              <a class="btn btn-ghost text-xl font-extrabold">
-                <div class="w-6 h-6 bg-bg-back rounded-full text-center ">
-                    <i class="fa-solid fa-arrow-right -rotate-45 flex justify-center items-center  font-semibold text-xl"></i>
+              <a class="btn btn-ghost text-3xl font-extrabold">
+                <div class="w-8 h-8 bg-bg-back rounded-full text-center ">
+                    <i class="fa-solid fa-arrow-right -rotate-45 flex justify-center items-center mt-1  font-semibold text-xl"></i>
 
                 </div>
-                  
-
                Rinterio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
-                <li class="text-[#494949]"><a>Home</a></li>
+                <li class="text-[#494949] font-extrabold"><a>Home</a></li>
                   <li><a>Services</a></li>
                   <li><a>Portfolio</a></li>
                   <li><a>Blogs</a></li>
@@ -60,6 +60,8 @@
               </ul>
             </div>
             <div class="navbar-end lg:inline-flex hidden">
+                <div class="mr-3 bg-bg-back w-8 h-8 text-black flex justify-center items-center rounded-full"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="mr-3 bg-bg-back w-8 h-8 text-black flex justify-center items-center rounded-full"><i class="fa-solid fa-cart-shopping"></i></div>
               <a class="btn bg-bg-back rounded-full text-title-font font-bold text-xl">Book Consult 
                 <div class=" w-6 h-6 bg-slate-900 rounded-full text-center ">
                     <i class="fa-solid fa-arrow-right -rotate-45 flex justify-center items-center  font-semibold text-xl text-white"></i>
@@ -68,35 +70,36 @@
               </a>
             </div>
             <!-- hambarger menu -->
-            <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
+            <div class="dropdown dropdown-end lg:hidden ">
+              <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                <div class="w-10 bg-slate-100 text-black flex justify-center items-center rounded-full">
+                  <i class="fa-solid fa-bars mt-2 text-xl"></i>
                 </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Home</a></li>
-                  <li><a>Services</a></li>
-                  <li><a>Portfolio</a></li>
-                  <li><a>Blogs</a></li>
-                  <li><a>Contact Us</a></li>
-                </ul>
               </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li>
+                  <a class="justify-between">
+                    Home
+                    <span class="badge">Services</span>
+                  </a>
+                </li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+              
+            </div>
           </div>
 
-        
 
+
+     </nav>       
+       
+
+            
     </header>
     <main>
 
