@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- google font -->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -12,8 +12,9 @@
     <script src="https://kit.fontawesome.com/a79eae3b70.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
 
-    <!-- DaisyUI & Tailwind CDN -->
-     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" /><script src="https://cdn.tailwindcss.com"></script>
+    <!-- Daisyui tailwind cdn  -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
      <style>
         .manrope-font {
     font-family: "Manrope", sans-serif;
@@ -41,7 +42,7 @@
 </head>
 <body class="manrope-font px-6">
     
-      <header class="" >
+      <header class=" bg-gray-50 " >
       <div class="container max-w-7xl  mx-auto ">
         <!-- nav -->
          <nav class="">
@@ -65,8 +66,8 @@
                 </ul>
               </div>
               <div class="navbar-end lg:inline-flex hidden">
-                  <div class="mr-3 bg-bg-back w-8 h-8 text-black flex justify-center items-center rounded-full"><i class="fa-solid fa-magnifying-glass"></i></div>
-                  <div class="mr-3 bg-bg-back w-8 h-8 text-black flex justify-center items-center rounded-full"><i class="fa-solid fa-cart-shopping"></i></div>
+                  <div class="mr-3 bg-white w-8 h-8 text-black flex justify-center items-center rounded-full"><i class="fa-solid fa-magnifying-glass"></i></div>
+                  <div class="mr-3 bg-white  w-8 h-8 text-black flex justify-center items-center rounded-full"><i class="fa-solid fa-cart-shopping"></i></div>
                 <a class="btn bg-bg-back rounded-full text-title-font font-bold text-xl">Book Consult 
                   <div class=" w-6 h-6 bg-slate-900 rounded-full text-center ">
                       <i class="fa-solid fa-arrow-right -rotate-45 flex justify-center items-center  font-semibold text-xl text-white"></i>
@@ -102,7 +103,7 @@
        </nav>    
        
        <!-- Banner Section -->
-        <section class="  lg:my-12 my-1">
+        <section class=" lg:mt-0  ">
           <div class="hero  min-h-screen">
             <div class="hero-content flex flex-col text-center">
               <div>
@@ -127,7 +128,7 @@
         </section>
  </div>     
     </header>
-    <main class="h-[5000px]">
+    <main class="">
       
      <div class=" bg-base-200 w-full lg:p-12 ">
       <!-- About Section" -->
@@ -175,17 +176,17 @@
       <!-- Work Process section -->
        <section class="container max-w-7xl mx-auto lg:my-32 my-12">
         <div class="text-center space-y-5">
-          <button class="btn bg-white rounded-full font-bold lg-mt0 lg:ml-0 " >
+          <button class="btn bg-slate-200 p-3 rounded-full font-bold lg-mt0 lg:ml-0 " >
             <i class="fa-solid fa-arrow-right"></i> How we works</button>
 
             <h1 class="text-black font-extrabold text-4xl ">Our Works Process</h1>
             <p class="text-description-font">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-12">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12">
 
           <!-- Card-1 -->
-          <div class="bg-[#E7C1D3] p-8 space-y-4 rounded-xl ">
+          <div class="bg-[#E7C1D3] p-8 space-y-2 rounded-xl ">
             <img src="assets/concept.png" alt="">
             <h1 class="font-extrabold text-xl ">Concept</h1>
             <p class="text-[16px] text-description-font">The barn house captivates with its blend of rustic charm <br> and modern.</p>
@@ -193,7 +194,7 @@
 
           </div>
           <!-- Card-2 -->
-          <div class="bg-[#EFDA6E] p-8 space-y-4 rounded-xl ">
+          <div class="bg-[#EFDA6E] p-8 space-y-2 rounded-xl ">
             <img src="assets/flow-chart.png" alt="">
             <h1 class="font-extrabold text-xl ">Design Process</h1>
             <p class="text-[16px] text-description-font">The barn house captivates with its blend of rustic charm <br> and modern.</p>
@@ -201,15 +202,15 @@
 
           </div>
           <!-- Card-3 -->
-          <div class="bg-[#A4DAC3] p-8 space-y-4 rounded-xl ">
+          <div class="bg-[#A4DAC3] p-8 space-y-2 rounded-xl ">
             <img src="assets/vision.png" alt="">
             <h1 class="font-extrabold text-xl ">Supervision</h1>
             <p class="text-[16px] text-description-font">The barn house captivates with its blend of rustic charm <br> and modern.</p>
 
 
           </div>
-          <!-- Card-4 -->
-          <div class="bg-[#77AAEA] p-8 space-y-4 rounded-xl ">
+          <!-- Card-2 -->
+          <div class="bg-[#77AAEA] p-8 space-y-2 rounded-xl ">
             <img src="assets/budget-planning.png" alt="">
             <h1 class="font-extrabold text-xl ">Budget Planning</h1>
             <p class="text-[16px] text-description-font">The barn house captivates with its blend of rustic charm <br> and modern.</p>
@@ -222,22 +223,22 @@
      </div>
 
      <!-- Portfolio section -->
-      <section class="">
+      <section class=" lg:mt-24">
         <!-- Main div -->
-        <div class="container max-w-7xl mx-auto border border-red-700">
+        <div class="container max-w-7xl mx-auto ">
 
           <div class="text-center space-y-5">
-            <button class="btn bg-[#ABEF5F] bg-opacity-60 rounded-full font-bold lg-mt0 lg:ml-0 " >
+            <button class="btn bg-[#ABEF5F] bg-opacity-60 rounded-full font-bold lg-mt0 lg:ml-0 p-3 " >
               <i class="fa-solid fa-arrow-right"></i> Explore our Latest works</button>
   
-              <h1 class="text-black font-extrabold text-4xl  ">Our Latest Portfolio</h1>
+              <h1 class="text-black font-extrabold text-2xl lg:text-4xl  ">Our Latest Portfolio</h1>
               <p class="text-description-font">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
           </div>
 
           <!-- grid card -->
-           <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-12">
+           <div class="grid grid-cols-1 lg:grid-cols-4 gap-2 mt-12">
             <!-- card-1 -->
-            <div class="lg:flex space-x-6 lg:col-span-3 border rounded-lg p-4">
+            <div class="lg:flex space-x-6 lg:col-span-3 border rounded-lg p-2">
               <!-- image -->
               <div class="">
                 <img class="w-[320px] h-[179px]" src="assets/img1.png" alt="">
@@ -257,17 +258,17 @@
 
             </div>
             <!-- card-2  -->
-            <div class="border  rounded-lg p-4  ">
+            <div class="border  rounded-lg p-2  ">
               <img class=" h-44" src="assets/img2.png" alt="">
 
             </div>
             <!-- card-3 -->
-            <div class="border  col-span-1 rounded-lg p-4  ">
+            <div class="border lg:order-none order-last  col-span-1 rounded-lg p-2  ">
               <img class="w-[400px] h-[179px]" src="assets/img3.png" alt="">
 
             </div>
-             <!-- card-4 -->
-             <div class="lg:flex order-4  space-x-4 lg:col-span-2 border rounded-lg p-4">
+             <!-- card-2 -->
+             <div class="lg:flex lg:order-none order-3  space-x-4 lg:col-span-2 border rounded-lg p-4">
               <!-- image -->
               <div class="">
                 <img class="w-[320px] h-[179px]" src="assets/img4.png" alt="">
@@ -288,7 +289,7 @@
             </div>
 
              <!-- card-5 -->
-             <div class="border  col-span-1 rounded-lg p-4  ">
+             <div class="border  lg:order-none   col-span-1 rounded-lg p-4  ">
               <img class=" w-[280px] h-44" src="assets/img5.png" alt="">
 
             </div>
@@ -299,6 +300,43 @@
         </div>
 
       </section>
+
+      <!-- Connect project section -->
+       <section class="input-sec mt-6" >
+     <div class="container mx-auto max-w-7xl">
+
+      <div>
+        <div class="text-center space-y-5 mt-10">
+          <button class="btn bg-[#ABEF5F] bg-opacity-60 text-sm p-2 rounded-full font-bold lg-mt0 lg:ml-0  " >
+            <i class="fa-solid fa-arrow-right"></i> Let’s Connect</button>
+
+            <h1 class="text-black font-extrabold text-4xl  ">Let’s Discuss Next Project</h1>
+            <p class="text-description-font">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+        </div>
+      </div>
+
+      <!-- input field -->
+      <div class="border grid grid-cols-1 lg:grid-cols-2 gap-3 lg:p-20">
+        <input class="p-2 rounded-full" type="text" name="" id="" placeholder="First Name*">
+        <input class="p-2 rounded-full " type="text" name="" id="" placeholder="Last Name*">
+        <input class="p-2 rounded-full " type="text" name="" id="" placeholder="Phone Number*">
+        <input class="p-2 rounded-full " type="text" name="" id="" placeholder="Email Number*">
+
+        <textarea class="rounded-2xl lg:col-span-2 p-4" rows="7" name="" id="" placeholder="Write your message here"></textarea>
+
+        <button class="flex justify-center lg:col-span-2 items-center space-x-2 btn bg-bg-back text-xl rounded-full p-2">Send Mail
+          <div class=" w-6 h-6 bg-slate-900 rounded-full text-center ">
+            <i class="fa-solid fa-arrow-right -rotate-45 flex justify-center items-center  font-semibold text-xl text-white"></i>
+
+        </div>
+        </button>
+        
+      </div>
+      
+     </div>
+
+
+       </section>
 
 
     </main>
