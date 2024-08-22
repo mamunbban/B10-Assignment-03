@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link  rel="preconnect" href="https://fonts.googleapis.com">
+    <link  rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- Fontawesome  -->
     <script src="https://kit.fontawesome.com/a79eae3b70.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/style.css">
+    <link  rel="stylesheet" href="styles/style.css">
 
     <!-- Daisyui tailwind cdn  -->
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<link  href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
      <style>
         .manrope-font {
@@ -316,7 +316,7 @@
       </div>
 
       <!-- input field -->
-      <div class="border grid grid-cols-1 lg:grid-cols-2 gap-3 lg:p-20">
+      <div class=" grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 lg:p-20">
         <input class="p-2 rounded-full" type="text" name="" id="" placeholder="First Name*">
         <input class="p-2 rounded-full " type="text" name="" id="" placeholder="Last Name*">
         <input class="p-2 rounded-full " type="text" name="" id="" placeholder="Phone Number*">
@@ -324,7 +324,7 @@
 
         <textarea class="rounded-2xl lg:col-span-2 p-4" rows="7" name="" id="" placeholder="Write your message here"></textarea>
 
-        <button class="flex justify-center lg:col-span-2 items-center space-x-2 btn bg-bg-back text-xl rounded-full p-2">Send Mail
+        <button class="flex justify-center lg:col-span-2 items-center space-x-2 btn bg-bg-back text-xl rounded-full mb-4 border-none p-2">Send Mail
           <div class=" w-6 h-6 bg-slate-900 rounded-full text-center ">
             <i class="fa-solid fa-arrow-right -rotate-45 flex justify-center items-center  font-semibold text-xl text-white"></i>
 
@@ -338,11 +338,51 @@
 
        </section>
 
+      
+
 
     </main>
-    <footer>
 
+    <!-- Footer Section -->
+
+  
+    <footer class="footer text-white footer-center bg-[#1C1C1C] text-base-content rounded p-10">
+    <section class="container max-w-7xl mx-auto">
+      <div class="lg:flex lg:flex-col lg:justify-center items-center space-y-6">
+        <div class="navbar-start flex   ">
+          <!--  -->
+           <a class="btn  btn-ghost text-3xl text-[#E9E9E9] font-extrabold">
+             <div class="w-8 h-8 bg-bg-back text-black rounded-full text-center ">
+                 <i class="fa-solid fa-arrow-right -rotate-45 flex justify-center items-center mt-1  font-semibold text-xl"></i>
+  
+             </div>
+            Rinterio</a>
+         </div>
+         <p class="text-sm text-[#737373] text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+      </div>
+
+      <nav class="grid lg:grid-flow-col lg:space-x-20 gap-4 mb-6 mt-6">
+        <a class="text-[#E9E9E9] link link-hover">Home</a>
+        <a class="text-[#E9E9E9] link link-hover">Services</a>
+        <a class="text-[#E9E9E9] link link-hover">Portfolio</a>
+        <a class="text-[#E9E9E9] link link-hover">Blogs</a>
+        <a class="text-[#E9E9E9] link link-hover">Contact Us</a>
+      </nav>
+
+      <button class="btn lg:w-fit w-full lg:mr-12 flex bg-bg-back rounded-full text-xl font-extrabold border-none">
+        Book Consult
+        <div class="  w-6 h-6 bg-slate-900 rounded-full text-center ">
+          <i class="fa-solid fa-arrow-right -rotate-45 flex justify-center items-center  font-semibold text-xl text-white"></i>
+
+      </div>
+
+      </button>
+    </section>
+
+      
     </footer>
+    
+    
     
 </body>
 </html>
